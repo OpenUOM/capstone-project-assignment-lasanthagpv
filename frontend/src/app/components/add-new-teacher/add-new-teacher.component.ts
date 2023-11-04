@@ -12,7 +12,6 @@ export class AddNewTeacherComponent implements OnInit {
   constructor(private service : AppServiceService, private router: Router) { }
 
   ngOnInit(): void {
-    // initialize form 
   }
 
   createTeacher(value){
